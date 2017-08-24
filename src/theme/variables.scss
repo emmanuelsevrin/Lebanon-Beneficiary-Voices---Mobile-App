@@ -45,16 +45,19 @@ $colors: (
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
-
-
+$tabs-ios-background: #3f51b5;
+$toolbar-ios-background: #3f51b5;
+$tabs-ios-tab-text-color : white;
 
 
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
+$tabs-background: #3f51b5;
+$tabs-tab-color-active: white;
+$tabs-md-tab-text-color: white;
 
-
-
+$toolbar-background: #3f51b5;
 
 // App Windows Variables
 // --------------------------------------------------

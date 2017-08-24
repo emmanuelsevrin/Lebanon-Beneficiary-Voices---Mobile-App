@@ -1,14 +1,14 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="home-screen">
+	<ion-grid>
+		<ion-row align-self-center>
+			<ion-col align-self-end>
+				<img class="logo-1" src="assets/imgs/wfplogo.png">
+			</ion-col>
+		</ion-row>
+		<ion-row class="welcome-text">
+			<ion-col align-self-center>
+				<span>{{ 'WELCOME' | translate }}</span>
+			</ion-col>		
+		</ion-row>
+	</ion-grid>	
 </ion-content>

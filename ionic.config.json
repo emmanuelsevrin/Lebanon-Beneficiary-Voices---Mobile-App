@@ -1,5 +1,19 @@
 {
-  "name": "beneficiaries-voices-test1",
-  "app_id": "",
-  "type": "ionic-angular"
+  "name": "beneficiaries-voices-mobile",
+  "app_id": "b3a2947f",
+  "type": "ionic-angular",
+  "proxies": [
+	  {
+	      "path": "/app",
+	      "proxyUrl": "http://voices.app"
+      },
+  	  {
+	      "path": "/google",
+	      "proxyUrl": "https://maps.googleapis.com/"
+      },
+      {
+        "path": "/socket",
+        "proxyUrl": "http://voices.app:6001"
+      }
+   ]
 }

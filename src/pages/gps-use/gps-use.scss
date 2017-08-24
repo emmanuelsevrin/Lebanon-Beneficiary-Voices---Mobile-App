@@ -1,4 +1,4 @@
-page-home {
+page-gps-use {
 	.home-screen {
 		background-color: #3f51b5;
 	}
@@ -8,14 +8,28 @@ page-home {
 	}
 
 	.logo-1 {
-		width: 30vh !important;
-		height: 33vh !important;
+		width: 14vh !important;
+		height: 16vh !important;
 	}
 
-	.welcome-text {
-		flex: 0.5;
+	.logo-row{
+		flex: 0.4;
+	}
+
+	.gps-text {
+		flex: 0.6;
 		color: white;
 		font-size: 4vh;
+	}
+
+	.dialog-text {
+		flex: 0.3;
+		color: white;
+		font-size: 4vh;
+	}
+
+	.white-text {
+		color: white;
 	}
 
     ion-row {
@@ -25,5 +39,5 @@ page-home {
 	ion-grid {
         padding: 0;
         height: 100%;
-    }	
+    }
 }

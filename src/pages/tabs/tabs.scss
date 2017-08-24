@@ -1,0 +1,19 @@
+page-tabs {
+	.tabs-md .tab-button[aria-selected=true] {
+		border-bottom: 3px solid white;
+	    color: #fff; /*your  text color */
+	}
+	
+	.tabs-ios .tab-button[aria-selected=true] {
+		border-bottom: 1px solid white;
+	    color: #fff; /*your  text color */
+	}
+
+	.tabs-md .tab-button-text {
+		font-size: 3vh;
+	}
+
+	.tabs-ios .tab-button.has-title-only .tab-button-text {
+		font-size: 3vh;
+	}
+}

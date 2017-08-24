@@ -1,0 +1,5 @@
+<ion-tabs (ionChange)="transition($event)" tabsPlacement="top">
+  <ion-tab [root]="priceListRoot" tabTitle="{{ 'PRICE_LIST_TAB_NAME' | translate }}"></ion-tab>
+  <ion-tab [root]="shopListRoot" tabTitle="{{ 'SHOP_LIST_TAB_NAME' | translate }}"></ion-tab>
+  <ion-tab [root]="feedbackRoot" tabTitle="{{ 'FEEDBACK_TAB_NAME' | translate }}"></ion-tab>
+</ion-tabs>

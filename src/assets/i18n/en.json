@@ -1,0 +1,15 @@
+{
+	"WELCOME" : "Welcome To Beneficiaries Voices Application",
+	"GPS_USE" : "Do You Allow The Use Of Your Device's GPS ? Allowing The Application To Use Your Device's GPS Helps In Locating The Best Prices Around You !",
+	"ACCEPT_GPS" : "YES / ACCEPT",
+	"REJECT_GPS" : "NO / REJECT" ,
+	"PHONE_INFO" : "Please Provide Your Phone Number",
+	"DATA_INFO" : "Please Provide Your Current Internet Plan",
+	"PHONE_INFO_PLACEHOLDER" : "Phone Number",
+	"PRICE_LIST_TAB_NAME" : "Prices",
+	"SHOP_LIST_TAB_NAME" : "Shops",
+	"FEEDBACK_TAB_NAME" : "Feedback",
+	"PRICES_PAGE_TITLE" : "Best Prices",
+	"SHOPS_PAGE_TITLE" : "Shops",
+	"FEEDBACK_PAGE_TITLE" : "Feedback"	
+}

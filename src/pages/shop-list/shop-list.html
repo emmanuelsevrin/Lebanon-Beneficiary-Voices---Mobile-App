@@ -1,0 +1,18 @@
+<ion-header>
+	<ion-navbar dir="{{direction}}">
+		<ion-title>{{ 'SHOPS_PAGE_TITLE' | translate }}</ion-title>
+	</ion-navbar>
+</ion-header>
+<ion-content padding>
+	<ion-grid>
+		<ion-row>
+			<ion-col col-12 *ngIf="nearest_shop?.shop">				
+				<shop [name]="nearest_shop?.shop?.name_ar" [distance]="nearest_shop?.distance?.distance?.text" [image]="nearest_shop?.shop?.id"></shop>
+			</ion-col>
+			<ion-col *ngFor="let shop of shops" col-6>
+				<shop [name]="shop?.shop?.name_ar" [distance]="shop?.distance?.distance?.text" [image]="shop?.shop?.id"></shop>
+			</ion-col>
+		</ion-row>
+	</ion-grid>	
+</ion-content>
+

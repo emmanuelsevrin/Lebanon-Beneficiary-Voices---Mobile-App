@@ -1,0 +1,14 @@
+<ion-header>
+	<ion-navbar dir="{{direction}}">
+		<ion-title>{{ 'PRICES_PAGE_TITLE' | translate }}</ion-title>
+	</ion-navbar>
+</ion-header>
+<ion-content padding>
+	<ion-grid>
+		<ion-row>
+			<ion-col *ngFor="let item of item_list" col-6>				
+				<item [name]="item.item.description_ar" [image]="item.item.id" [price]="item.lowest_price"></item>
+			</ion-col>
+		</ion-row>
+	</ion-grid>	
+</ion-content>

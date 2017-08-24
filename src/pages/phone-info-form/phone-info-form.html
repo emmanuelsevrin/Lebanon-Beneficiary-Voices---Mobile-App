@@ -1,0 +1,45 @@
+<ion-content padding class="home-screen no-scroll">
+	<ion-grid>
+		<ion-row align-self-center>
+			<ion-grid>
+				<ion-row align-self-center class="logo-row">
+					<ion-col align-self-center>
+						<img class="logo-1" src="assets/imgs/wfplogo.png">
+					</ion-col>
+				</ion-row>
+				<ion-row class="phone-inputs">
+					<ion-col align-self-start>
+						<span style="color:white; font-size: 4vh;" stacked>{{ 'PHONE_INFO' | translate }}</span>
+						<ion-item class="transparent-bg" dir="{{direction}}">
+							<ion-input style="color:white;" type="text" placeholder="{{ 'PHONE_INFO_PLACEHOLDER' | translate }}" [(ngModel)]="phone_number"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>		
+				<ion-row class="data-inputs">
+					<ion-col align-self-start>
+						<span>{{ 'DATA_INFO' | translate }}</span>
+						<ion-list radio-group [(ngModel)]="autoManufacturers" class="transparent-bg color-grey" dir="{{direction}}">
+							<ion-item class="transparent-bg">
+								<ion-label>حزمة الواتساب</ion-label>
+								<ion-radio value="cord"></ion-radio>
+							</ion-item>
+							<ion-item class="transparent-bg">
+								<ion-label>500 ميجابيت</ion-label>
+								<ion-radio value="duesenberg"></ion-radio>
+							</ion-item>
+							<ion-item class="transparent-bg">
+								<ion-label>1500 ميجابيت</ion-label>
+								<ion-radio value="hudson"></ion-radio>
+							</ion-item>
+						</ion-list>
+					</ion-col>
+					<ion-fab bottom right>
+						<button ion-fab color="light" (click)="startApp()">
+							<ion-icon name="ios-arrow-forward"></ion-icon>
+						</button>
+					</ion-fab>
+				</ion-row>
+			</ion-grid>	
+		</ion-row>
+	</ion-grid>	
+</ion-content>

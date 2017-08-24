@@ -1,0 +1,115 @@
+page-phone-info-form {
+	.home-screen {
+		background-color: #3f51b5;
+	}
+
+	.wfp-logo {
+		padding-top: 12vh;
+	}
+
+	.logo-1 {
+		width: 14vh !important;
+		height: 16vh !important;
+	}
+
+	.logo-row{
+		flex: 0.3;
+	}
+
+	.phone-inputs {
+		flex: 0.2;
+		color: white;
+		font-size: 4vh;
+	}
+
+	.data-inputs {
+		flex: 0.5;
+		color: white;
+		font-size: 4vh;
+	}	
+
+	.welcome-text {
+		flex: 0.3;
+		color: white;
+		font-size: 4vh;
+	}
+
+	.transparent-bg {
+		background: transparent;
+	}
+
+	.color-grey .item-radio{
+		color: #8893d1;
+	}
+
+	.color-grey .item-radio-checked.item-md ion-label{
+		color: white;
+	}
+
+	.color-grey .item-ios .item-radio{
+		color: #8893d1;
+	}
+
+	.color-grey .item-ios .item-radio-checked.item-md ion-label{
+		color: white;
+	}
+
+	.color-grey .item-radio-checked.item-ios ion-label {
+		color: white;
+	}
+
+	.color-grey .radio-ios .radio-checked .radio-inner {
+		border-color: white;
+	}
+
+	.color-grey .radio-icon{
+		border-color: white;
+	}
+
+	.color-grey .radio-icon.radio-checked .radio-inner{
+		background-color: white;
+	}	
+
+	.color-grey .radio-ios .radio-icon.radio-checked .radio-inner{
+		background-color: transparent;
+	}	
+
+	.text-input::-moz-placeholder {
+	  color: #8893d1;
+	}
+
+	.text-input:-ms-input-placeholder {
+	  color: #8893d1;
+	}
+
+	.text-input::-webkit-input-placeholder {
+	  text-indent: 0;
+	  color: #8893d1;
+	}
+
+	.list-ios > .item-block:first-child {
+		border: none;
+	}
+
+	.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block
+	{
+		border: none;
+	}
+
+	.no-scroll .scroll-content{
+	    overflow: hidden;
+	}
+
+	scroll-content {
+	  padding-bottom:0!important;
+	}
+	
+    ion-row {
+        flex: 1;
+    }
+
+	ion-grid {
+        padding: 0;
+        height: 100%;
+    }
+}

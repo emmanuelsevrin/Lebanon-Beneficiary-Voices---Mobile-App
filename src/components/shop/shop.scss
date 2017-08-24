@@ -1,0 +1,36 @@
+shop {
+	ion-card img {
+		width: 97%;
+		height: 100%;
+	    margin: 0 auto;
+	}
+
+	.card-ios, .card-md {
+		margin: 0;
+		width: 100%;
+	}
+
+	.card-content-ios, .card-content-md {
+		padding: 0px 10px 0px;
+	}
+
+	.height-20vh {
+		height: 20vh;
+	}
+
+	.position-relative {
+		position: relative;
+	}
+
+	.pin-icon-container {
+		position: absolute;
+		bottom: 10px;
+		left: 20px;
+		color: white;
+		font-size: 3vh;
+	}
+
+	.pin-text {
+		font-size: 2vh;
+	}
+}

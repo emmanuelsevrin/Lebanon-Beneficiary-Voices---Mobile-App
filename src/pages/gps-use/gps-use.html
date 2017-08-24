@@ -1,0 +1,26 @@
+<ion-content padding class="home-screen">
+	<ion-grid>
+		<ion-row align-self-center>
+			<ion-grid>
+				<ion-row align-self-center class="logo-row">
+					<ion-col align-self-center>
+						<img class="logo-1" src="assets/imgs/wfplogo.png">
+					</ion-col>
+				</ion-row>
+				<ion-row class="gps-text">
+					<ion-col align-self-start>
+						<span>{{ 'GPS_USE' | translate }}</span>
+					</ion-col>
+				</ion-row>		
+			</ion-grid>	
+		</ion-row>
+		<ion-row class="dialog-text">
+			<ion-col>
+				<button ion-button clear="true" class="white-text">{{ 'ACCEPT_GPS' | translate }}</button>
+			</ion-col>
+			<ion-col>
+				<button ion-button color="light">{{ 'REJECT_GPS' | translate }}</button>
+			</ion-col>
+		</ion-row>
+	</ion-grid>	
+</ion-content>
