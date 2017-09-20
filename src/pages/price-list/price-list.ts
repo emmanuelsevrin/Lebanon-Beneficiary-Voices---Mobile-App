@@ -18,25 +18,10 @@ export class PriceListPage {
 
 
   ionViewDidLoad() {
-
-    this.itemService.getNewItems().subscribe(
-      data => {
-        console.log(data);
-        this.item_list.push(data);
-        console.log(this.item_list);
-      },
-      err => {
-        console.log(err);
-      },
-      () => {
-        console.log('complete');
-      }
-    );
-
+    
     this.itemService.getTopItems().subscribe(
         data => {
           this.item_list = data;
-          console.log(this.item_list);
         },
         err => {
             console.log(err);

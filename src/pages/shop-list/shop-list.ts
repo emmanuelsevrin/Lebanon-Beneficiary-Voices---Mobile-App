@@ -53,7 +53,7 @@ export class ShopListPage {
               });  
               this.shops = this.shops_info;
               this.shops = this.arrangeShopsByDistance(this.shops);
-              this.nearest_shop = this.shops.shift();
+              // this.nearest_shop = this.shops.shift();
             },
             err => {
                 console.log(err);
